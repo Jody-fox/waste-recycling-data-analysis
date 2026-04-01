@@ -15,7 +15,7 @@ library(broom)
 
 
 #leggo i dati dal foglio excel in questione
-dati <- read_excel("C:\\Users\\Jody\\Desktop\\emilia_romagna_report.xlsx")
+dati <- read_excel("data/emilia_romagna_report.xlsx")
 View(dati)
 head(dati, 10)
 
